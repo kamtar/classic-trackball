@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for Base
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -242,7 +242,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KQRUKOUP
 
 [Document13]
 DocumentPath=..\..\PartLibraries\Connectors.SchLib
@@ -259,7 +259,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JFWVNYIA
 
 [Document14]
 DocumentPath=..\..\PartLibraries\Crystals.PcbLib
@@ -293,7 +293,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UXETFJHT
 
 [Document16]
 DocumentPath=..\..\PartLibraries\Diodes.PcbLib
@@ -327,7 +327,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UCWXTLDC
 
 [Document18]
 DocumentPath=..\..\PartLibraries\Graphics.PcbLib
@@ -361,7 +361,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KJDFLIKH
 
 [Document20]
 DocumentPath=..\..\PartLibraries\LEDs.PcbLib
@@ -395,7 +395,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QFHBURXU
 
 [Document22]
 DocumentPath=..\..\PartLibraries\MCUs.PcbLib
@@ -463,7 +463,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=OACQIOSY
 
 [Document26]
 DocumentPath=..\..\PartLibraries\OptoElectronics.PcbLib
@@ -497,7 +497,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=BWGBGXNJ
 
 [Document28]
 DocumentPath=..\..\PartLibraries\PCBFeatures.PcbLib
@@ -531,7 +531,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=POKPGGFV
 
 [Document30]
 DocumentPath=..\..\PartLibraries\PowerSupply.PcbLib
@@ -565,7 +565,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CBEYLMJF
 
 [Document32]
 DocumentPath=..\..\PartLibraries\Switches.PcbLib
@@ -599,7 +599,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ECOUGKAF
 
 [Document34]
 DocumentPath=..\..\PartLibraries\Schlib1.SchLib
@@ -684,7 +684,7 @@ SCH_ShowNoErc=-1
 SCH_ShowParameter=0
 SCH_ShowProbes=0
 SCH_ShowBlankets=0
-SCH_NoERCSymbolsToShow=Checkbox
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross",Checkbox
 SCH_ShowNote=0
 SCH_ShowNoteCollapsed=0
 SCH_ExpandLogicalToPhysical=-1
@@ -698,7 +698,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Base
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -2115,29 +2115,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Chip_Passives.SchLib
-ComponentDesignItemID0=Cap 0.1uF 100V
-ComponentSymbolReference0=Cap 0.1uF 100V
+ComponentLibraryIdentifier0=Connectors.SchLib
+ComponentDesignItemID0=1734346-4
+ComponentSymbolReference0=1734346-4
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Chip_Passives.SchLib
-ComponentDesignItemID1=Cap 10uF 25V
-ComponentSymbolReference1=Cap 10uF 25V
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Chip_Passives.SchLib
-ComponentDesignItemID2=Res 10k 1% 0805
-ComponentSymbolReference2=Res 10k 1% 0805
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Chip_Passives.SchLib
-ComponentDesignItemID3=Res 1k 1% 0805
-ComponentSymbolReference3=Res 1k 1% 0805
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
 FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -2201,20 +2183,19 @@ ParameterName23=Supplier 1
 ParameterUpdate23=1
 ParameterName24=Supplier 2
 ParameterUpdate24=1
-ParameterName25=Supplier Part Number 1
+ParameterName25=Supplier 3
 ParameterUpdate25=1
-ParameterName26=Supplier Part Number 2
+ParameterName26=Supplier Part Number 1
 ParameterUpdate26=1
-ParameterName27=Value
+ParameterName27=Supplier Part Number 2
 ParameterUpdate27=1
+ParameterName28=Supplier Part Number 3
+ParameterUpdate28=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=0603
+ModelName0=1734346-4
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=0805
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
